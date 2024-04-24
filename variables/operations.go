@@ -38,3 +38,26 @@ func IntegerOperations() {
 	b--
 	fmt.Println("Decremented b:", b)
 }
+
+func FloatingOperations() {
+	var (
+		a float32 = 10.5
+		b float32 = 5.5
+	)
+
+	// Addition
+	sum := a + b
+	fmt.Println("Sum:", sum)
+
+	// Subtraction
+	diff := a - b
+	fmt.Println("Difference:", diff)
+
+	// Multiplication
+	product := a * b
+	fmt.Println("Product:", product)
+
+	// Division
+	quotient := a / b
+	fmt.Println("Quotient:", quotient)
+}
