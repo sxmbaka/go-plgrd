@@ -8,4 +8,6 @@ func main() {
 	variables.TestAllVariables()
 
 	variables.TestAllOperations()
+
+	variables.TypeConversion()
 }
