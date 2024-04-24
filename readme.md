@@ -1,4 +1,4 @@
-<img style="height: 80;" src="assets\images\go-logo-blue.png">
+<img src="assets\images\go-logo-blue-2.png">
 <hr>
 
 ### [`Variables`](./variables/)
