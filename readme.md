@@ -13,6 +13,8 @@
 4. [Type Inference](./variables/type-inference.go)<br>
 (Read further at https://go.dev/blog/type-inference)
 6. [Variable Naming Conventions](./variables/variable-naming-conventions.go)
+7. [Variable Scopes](./variables/variable-scopes.go)
+8. [Variable Shadowing](./variables/shadowing-variables.go)
 
 
 

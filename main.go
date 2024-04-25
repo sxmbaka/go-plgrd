@@ -12,14 +12,6 @@ func main() {
 	args := os.Args[1:]
 	if len(args) > 0 {
 		switch args[0] {
-		case "variables":
-			variables.TestAllVariables()
-		case "operations":
-			variables.TestAllOperations()
-		case "conversion":
-			variables.TypeConversion()
-		case "inference":
-			variables.TypeInference()
 		case "playground", "p":
 			playground.Test()
 		default:
@@ -32,5 +24,7 @@ func main() {
 		variables.TestAllVariables()
 		variables.TypeConversion()
 		variables.TypeInference()
+		variables.TestAllScopes()
+		variables.ShadowingVariables()
 	}
 }
