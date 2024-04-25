@@ -15,4 +15,9 @@
 6. [Variable Naming Conventions](./variables/variable-naming-conventions.go)
 
 
+
+  
+
 __Tip__: _Create a `playground` directory in the `root` directory and then test these examples yourself._
+### Contributors:
+- [sxmbaka](https://github.com/sxmbaka)

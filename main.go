@@ -20,7 +20,7 @@ func main() {
 			variables.TypeConversion()
 		case "inference":
 			variables.TypeInference()
-		case "playground":
+		case "playground", "p":
 			playground.Test()
 		default:
 			// Handle invalid command-line argument
