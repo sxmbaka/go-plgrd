@@ -69,9 +69,31 @@ func TypeConversion() {
 	var g int = int(f)
 	fmt.Println("Converted f to int:", g)
 
+	// float64 to float32 will also result in loss of data
+	var j float64 = 423243242234242232.342423424234234234234242342
+	var k float32 = float32(j)
+	fmt.Println("Converted j to float32:", k)
+
 	// converting an int to a float will not result in loss of data
 	// because the float data type can store integer values as well
 	var h int = 10
 	var i1 float32 = float32(h)
 	fmt.Println("Converted h to float32:", i1)
+
+	// converting a string to a float will result in an error
+	// because the string data type cannot store a float value
+	var l string = "10.5"
+	// var m float32 = float32(l) // This type conversion is not possible in Go
+	// fmt.Println("Converted l to float32:", m)
+	// This will give an error because you cannot convert a string to a float directly
+	// You will have to convert the string to a rune first and then to a float
+	var m float32 = float32(rune(l[0]))
+	// This will convert the first character of the string to a rune and then to a float
+	fmt.Println("Converted l to float32:", m)
+
+	// converting a float to a string will result in an error
+	// because the float data type cannot store a string value
+	// var n float32 = 10.5
+	// var o string = string(n) // This type conversion is not possible in Go
+	// fmt.Println("Converted n to string:", o)
 }
