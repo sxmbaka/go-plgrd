@@ -42,14 +42,14 @@ func constants() {
 	// 2. Typed constants
 
 	// Typed constants
-	const x int = 10
-	const y string = "Hello"
-	const z float64 = 20.5
+	// const x int = 10
+	// const y string = "Hello"
+	// const z float64 = 20.5
 
 	// Untyped constants
-	const x1 = 10
-	const y1 = "Hello"
-	const z1 = 20.5
+	// const x1 = 10
+	// const y1 = "Hello"
+	// const z1 = 20.5
 
 	// Default hidden types of constants:
 	// Integers	       int
