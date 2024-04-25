@@ -2,7 +2,7 @@ package variables
 
 import "fmt"
 
-var gx1 int = 10 // gx1 is a global variable which cannot be accessed from outside the package
+var gx1 int = 10         // gx1 is a global variable which cannot be accessed from outside the package
 var Gx2 string = "Hello" // Gx2 is a global variable which can be accessed from outside the package
 
 // try to access gx1 from outside the package and see the error
@@ -13,7 +13,6 @@ var Gx2 string = "Hello" // Gx2 is a global variable which can be accessed from 
 // try to access Gx2 from outside the package and see the result
 // e.g., go to main.go and try to access Gx2 using
 // fmt.Println(variables.Gx2)
-
 
 /*
 A variable declaration can be done at the package level or a function level or a block level.
@@ -36,6 +35,8 @@ func TestAllScopes() {
 5. A local once declared cannot be redeclared within the same block or function.
 */
 func localScope() {
+	fmt.Println()
+	fmt.Println("Local Scope")
 	var x1 int = 10
 	fmt.Println(x1)
 	{
@@ -53,6 +54,8 @@ func localScope() {
 4. Global variable are available throughout the lifetime of a program.
 */
 func globalScope() {
-	fmt.Println(gx1) 
+	fmt.Println()
+	fmt.Println("Global Scope")
+	fmt.Println(gx1)
 	fmt.Println(Gx2)
 }

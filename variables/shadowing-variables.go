@@ -11,6 +11,8 @@ import "fmt"
 var x = 10
 
 func ShadowingVariables() {
+	fmt.Println()
+	fmt.Println("Shadowing Variables")
 	fmt.Println("package's i:", x)
 
 	// package's i is being shadowed:

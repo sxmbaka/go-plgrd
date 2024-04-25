@@ -26,5 +26,6 @@ func main() {
 		variables.TypeInference()
 		variables.TestAllScopes()
 		variables.ShadowingVariables()
+		variables.TestConstants()
 	}
 }
