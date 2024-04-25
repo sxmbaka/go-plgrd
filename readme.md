@@ -3,6 +3,8 @@
 
 ### [`General`](./general-conventions/)
 1. [Semicolons in Go](./general-conventions/semicolons.md)
+2. [Short Declarations](./general/short-declarations.md)<br>
+(Using the `:=` operator)
 
 ### [`Variables`](./variables/)
 1. [Variable Types](./variables/variable-types.go)
