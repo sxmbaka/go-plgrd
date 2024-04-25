@@ -10,4 +10,6 @@ func main() {
 	variables.TestAllOperations()
 
 	variables.TypeConversion()
+
+	variables.TypeInference()
 }
