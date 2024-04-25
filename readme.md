@@ -1,7 +1,7 @@
 <img src="assets\images\go-logo-blue-2.png">
 <hr>
 
-### [`General Conventions`](./general-conventions/)
+### [`General`](./general-conventions/)
 1. [Semicolons in Go](./general-conventions/semicolons.md)
 
 ### [`Variables`](./variables/)
