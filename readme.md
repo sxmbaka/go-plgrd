@@ -17,7 +17,8 @@
 6. [Variable Naming Conventions](./variables/variable-naming-conventions.go)
 7. [Variable Scopes](./variables/variable-scopes.go)
 8. [Variable Shadowing](./variables/shadowing-variables.go)
-9. [Constants in Go](./variables/constants.go)
+9. [Constants in Go](./variables/constants.go)<br>
+(Read further at https://golangbyexample.com/constant-golang/)
 
 
   
