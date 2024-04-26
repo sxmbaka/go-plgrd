@@ -5,6 +5,7 @@
 1. [Semicolons in Go](./general-conventions/semicolons.md)
 2. [Short Declarations](./general/short-declarations.md)<br>
 (Using the `:=` operator)
+3. [iota in Go](./general/iota.go)
 
 ### [`Variables`](./variables/)
 1. [Variable Types](./variables/variable-types.go)
