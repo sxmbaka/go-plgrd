@@ -6,6 +6,7 @@
 2. [Short Declarations](./general/short-declarations.md)<br>
 (Using the `:=` operator)
 3. [iota in Go](./general/iota.go)
+4. [Enumerations in Go](./general/enums.md)
 
 ### [`Variables`](./variables/)
 1. [Variable Types](./variables/variable-types.go)
