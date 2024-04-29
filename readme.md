@@ -2,7 +2,7 @@
 <hr>
 
 ### [`General`](./general-conventions/)
-1. [Hello World in GO](./general/hello-world.md)
+1. [Hello World in Go](./general/hello-world.md)
 2. [Semicolons in Go](./general-conventions/semicolons.md)
 3. [Short Declarations](./general/short-declarations.md)<br>
 (Using the `:=` operator)
