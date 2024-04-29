@@ -11,6 +11,7 @@
 ### [`GO ENV Variables`](./goenv/)
 1. [GOROOT](./goenv/GOROOT.md)
 2. [GOPATH](./goenv/GOPATH.md)
+3. [GOBIN](./goenv/GOBIN.md)
 
 ### [`Variables`](./variables/)
 1. [Variable Types](./variables/variable-types.go)
