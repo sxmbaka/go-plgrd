@@ -8,6 +8,9 @@
 3. [iota in Go](./general/iota.go)
 4. [Enumerations in Go](./general/enums.md)
 
+### [`GO ENV Variables`](./goenv/)
+1. [GOROOT](./goenv/GOROOT.md)
+
 ### [`Variables`](./variables/)
 1. [Variable Types](./variables/variable-types.go)
 2. [Operations on variables](./variables/operations.go)<br>
