@@ -1,3 +1,5 @@
+# GOROOT
+
 `GOROOT` is an environment variable used in the Go programming language to specify the root directory where the Go SDK (Software Development Kit) is installed on your system. This variable signifies the base location of the Go installation.
 
 When you install Go on your machine, whether using the official binary distribution or through a custom installation, Go assumes a default location for its installation directory. For example:
