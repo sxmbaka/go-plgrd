@@ -13,7 +13,9 @@
 <details>
     <summary>What are Go Environment Variables?</summary>
 
-Use `go env` to print Go environment information. The `go env` command prints the value of environment variables used by the Go tools. These variables are used to configure the behavior of the Go tools and the Go runtime. The `go env` command can be used to print the value of a specific environment variable, or it can be used to print all the environment variables used by the Go tools.
+Use `go env` to print Go environment information. The `go env` command prints the value of environment variables used by the Go tools. These variables are used to configure the behavior of the Go tools and the Go runtime. 
+
+The `go env` command can be used to print the value of a specific environment variable, or it can be used to print all the environment variables used by the Go tools.
 </details>
 
 1. [GOROOT](./goenv/GOROOT.md)
