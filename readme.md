@@ -2,11 +2,12 @@
 <hr>
 
 ### [`General`](./general-conventions/)
-1. [Semicolons in Go](./general-conventions/semicolons.md)
-2. [Short Declarations](./general/short-declarations.md)<br>
+1. [Hello World in GO](./general/hello-world.md)
+2. [Semicolons in Go](./general-conventions/semicolons.md)
+3. [Short Declarations](./general/short-declarations.md)<br>
 (Using the `:=` operator)
-3. [iota in Go](./general/iota.go)
-4. [Enumerations in Go](./general/enums.md)
+4. [iota in Go](./general/iota.go)
+5. [Enumerations in Go](./general/enums.md)
 
 ### [`GO ENV Variables`](./goenv/)
 1. [GOROOT](./goenv/GOROOT.md)
