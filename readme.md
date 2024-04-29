@@ -13,6 +13,7 @@
 1. [GOROOT](./goenv/GOROOT.md)
 2. [GOPATH](./goenv/GOPATH.md)
 3. [GOBIN](./goenv/GOBIN.md)
+4. [GO111MODULE](./goenv/GO111MODULE.md)
 
 ### [`Variables`](./variables/)
 1. [Variable Types](./variables/variable-types.go)
