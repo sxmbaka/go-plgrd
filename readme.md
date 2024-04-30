@@ -2,6 +2,7 @@
 <hr>
 
 ### [`General`](./general-conventions/)
+
 1. [Hello World in Go](./general/hello-world.md)
 2. [Semicolons in Go](./general-conventions/semicolons.md)
 3. [Short Declarations](./general/short-declarations.md)<br>
@@ -10,10 +11,11 @@
 5. [Enumerations in Go](./general/enums.md)
 
 ### [`GO ENV Variables`](./goenv/)
+
 <details>
     <summary>What are Go Environment Variables?</summary>
 
-Use `go env` to print Go environment information. The `go env` command prints the value of environment variables used by the Go tools. These variables are used to configure the behavior of the Go tools and the Go runtime. 
+Use `go env` to print Go environment information. The `go env` command prints the value of environment variables used by the Go tools. These variables are used to configure the behavior of the Go tools and the Go runtime.
 
 The `go env` command can be used to print the value of a specific environment variable, or it can be used to print all the environment variables used by the Go tools.
 </details>
@@ -25,22 +27,22 @@ The `go env` command can be used to print the value of a specific environment va
 5. [GOMOD](./goenv/GOMOD.md)
 
 ### [`Variables`](./variables/)
+
 1. [Variable Types](./variables/variable-types.go)
 2. [Operations on variables](./variables/operations.go)<br>
 (You might need to study [Operators](./operators/) in case of any anomalies)
 3. [Type Conversions](./variables/type-conversions.go)
 4. [Type Inference](./variables/type-inference.go)
 4. [Type Inference](./variables/type-inference.go)<br>
-(Read further at https://go.dev/blog/type-inference)
+(Read further at <https://go.dev/blog/type-inference>)
 6. [Variable Naming Conventions](./variables/variable-naming-conventions.go)
 7. [Variable Scopes](./variables/variable-scopes.go)
 8. [Variable Shadowing](./variables/shadowing-variables.go)
 9. [Constants in Go](./variables/constants.go)<br>
-(Read further at https://golangbyexample.com/constant-golang/)
-
-
-  
+(Read further at <https://golangbyexample.com/constant-golang/>)
 
 __Tip__: _Create a `playground` directory in the `root` directory and then test these examples yourself._
-### Contributors:
+
+### Contributors
+
 - [sxmbaka](https://github.com/sxmbaka)
