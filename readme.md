@@ -44,7 +44,3 @@ The `go env` command can be used to print the value of a specific environment va
 (Read further at <https://golangbyexample.com/constant-golang/>)
 
 __Tip__: _Create a `playground` directory in the `root` directory and then test these examples yourself._
-
-### Contributors
-
-- [sxmbaka](https://github.com/sxmbaka)
