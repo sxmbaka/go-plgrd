@@ -1,4 +1,4 @@
-<img src="assets\images\go-logo-blue-2.png">
+<img src="assets\images\go-logo-blue.png">
 <hr>
 
 ### [`General`](./general-conventions/)
@@ -15,11 +15,25 @@
 <details>
     <summary><b>What are Go Environment Variables?</b></summary>
 
-<img src="assets/images/golang-gopher-with-go-env.png">
+The `go env` command prints the value of environment variables used by the Go tools. These variables are used to configure the behavior of the Go tools and the Go runtime. These runtime environment variables are used to control the behavior of the Go runtime, and the Go tools. The Go tools include the `go` command, the `gofmt` command, and the `godoc` command. The Go runtime is the part of the Go toolchain that executes Go programs.
 
-Use `go env` to print Go environment information. The `go env` command prints the value of environment variables used by the Go tools. These variables are used to configure the behavior of the Go tools and the Go runtime.
-
-The `go env` command can be used to print the value of a specific environment variable, or it can be used to print all the environment variables used by the Go tools.
+**Manipulating Go runtime environment variables:**
+- Show all environment variables
+    ```bash
+    go env
+    ```
+- Show a specific environment variable
+    ```bash
+    go env [GOPATH]
+    ```
+- Set an environment variable to a value
+    ```bash
+    go env -w [GOBIN]=[path/to/directory]
+    ```
+- Reset an environment variable's value
+    ```bash
+    go env -u [GOBIN]
+    ```
 
 Read further at:
 - [A whirlwind tour of Go runtime environment variables - Dave Cheney](https://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables)
