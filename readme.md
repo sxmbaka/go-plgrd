@@ -10,7 +10,7 @@
 4. [iota in Go](./general/iota.go)
 5. [Enumerations in Go](./general/enums.md)
 
-### [`GO ENV Variables`](./goenv/)
+### [`GO Runtime Environment Variables`](./go-runtime-env-vars/)
 
 <details>
     <summary><b>What are Go Environment Variables?</b></summary>
@@ -49,17 +49,17 @@ Read further at:
 The following environment variables (`$name` or `%name%`, depending on the host operating system) control the run-time behavior of Go programs. The meanings and use may change from release to release.
 </details>
 
-1. [GOROOT](./goenv/GOROOT.md)
-2. [GOPATH](./goenv/GOPATH.md)
-3. [GOBIN](./goenv/GOBIN.md)
-4. [GO111MODULE](./goenv/GO111MODULE.md)
-5. [GOMOD](./goenv/GOMOD.md)
-6. [GOOS and GOARCH](./goenv/GOOS-GOARCH.md)
-7. [GOCACHE and GOTMPDIR](./goenv/GOCACHE-GOTMPDIR.md)
-8. [GOPROXY](./goenv/GOPROXY.md)
-9. [GOFLAGS](./goenv/GOFLAGS.md)
-10. [GOENV](./goenv/GOENV.md)
-11. [GOGC](./goenv/GOGC.md)
+1. [GOROOT](./go-runtime-env-vars/GOROOT.md)
+2. [GOPATH](./go-runtime-env-vars/GOPATH.md)
+3. [GOBIN](./go-runtime-env-vars/GOBIN.md)
+4. [GO111MODULE](./go-runtime-env-vars/GO111MODULE.md)
+5. [GOMOD](./go-runtime-env-vars/GOMOD.md)
+6. [GOOS and GOARCH](./go-runtime-env-vars/GOOS-GOARCH.md)
+7. [GOCACHE and GOTMPDIR](./go-runtime-env-vars/GOCACHE-GOTMPDIR.md)
+8. [GOPROXY](./go-runtime-env-vars/GOPROXY.md)
+9. [GOFLAGS](./go-runtime-env-vars/GOFLAGS.md)
+10. [GOENV](./go-runtime-env-vars/GOENV.md)
+11. [GOGC](./go-runtime-env-vars/GOGC.md)
 
 ### [`Variables`](./variables/)
 
