@@ -27,6 +27,8 @@ Read further at:
 - [The Go's official env.go file](https://go.dev/src/cmd/go/internal/envcmd/env.go)
 - [Go environment variables explained in 5 mins - GolangDojo (YT)](https://youtu.be/Ut-NLq6d694?si=pjV1xE1R5Jycsc7r)
 - [Golang Environment and Golang Command - Wahyu Eko Hadi Saputro](https://wahyu-ehs.medium.com/golang-environment-and-golang-command-1fdcbc145f32)
+
+The following environment variables (`$name` or `%name%`, depending on the host operating system) control the run-time behavior of Go programs. The meanings and use may change from release to release.
 </details>
 
 1. [GOROOT](./goenv/GOROOT.md)
@@ -39,6 +41,7 @@ Read further at:
 8. [GOPROXY](./goenv/GOPROXY.md)
 9. [GOFLAGS](./goenv/GOFLAGS.md)
 10. [GOENV](./goenv/GOENV.md)
+11. [GOGC](./goenv/GOGC.md)
 
 ### [`Variables`](./variables/)
 
