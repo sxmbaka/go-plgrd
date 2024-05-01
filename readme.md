@@ -34,6 +34,10 @@ The `go env` command prints the value of environment variables used by the Go to
     ```bash
     go env -u [GOBIN]
     ```
+- Get more help
+    ```bash
+    go help env
+    ```
 
 Read further at:
 - [A whirlwind tour of Go runtime environment variables - Dave Cheney](https://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables)
