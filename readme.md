@@ -42,9 +42,10 @@ The `go env` command prints the value of environment variables used by the Go to
 Read further at:
 - [A whirlwind tour of Go runtime environment variables - Dave Cheney](https://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables)
 - [Go your own way - Sourav Choudhary](https://medium.com/@souravchoudhary0306/go-your-own-way-customizing-go-with-environment-variables-3e47c880fe34)
-- [The Go's official env.go file](https://go.dev/src/cmd/go/internal/envcmd/env.go)
 - [Go environment variables explained in 5 mins - GolangDojo (YT)](https://youtu.be/Ut-NLq6d694?si=pjV1xE1R5Jycsc7r)
 - [Golang Environment and Golang Command - Wahyu Eko Hadi Saputro](https://wahyu-ehs.medium.com/golang-environment-and-golang-command-1fdcbc145f32)
+- [Go runtime environment variables - Golang Docs](https://pkg.go.dev/runtime#hdr-Environment_Variables)
+- [The Go's official env.go file](https://go.dev/src/cmd/go/internal/envcmd/env.go)
 
 The following environment variables (`$name` or `%name%`, depending on the host operating system) control the run-time behavior of Go programs. The meanings and use may change from release to release.
 </details>
