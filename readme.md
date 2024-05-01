@@ -28,6 +28,7 @@ The `go env` command can be used to print the value of a specific environment va
 6. [GOOS and GOARCH](./goenv/GOOS-GOARCH.md)
 7. [GOCACHE and GOTMPDIR](./goenv/GOCACHE-GOTMPDIR.md)
 8. [GOPROXY](./goenv/GOPROXY.md)
+9. [GOFLAGS](./goenv/GOFLAGS.md)
 
 ### [`Variables`](./variables/)
 
