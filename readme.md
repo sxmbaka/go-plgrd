@@ -34,9 +34,19 @@ The `go env` command prints the value of environment variables used by the Go to
     ```bash
     go env -u [GOBIN]
     ```
+- Get help on a specific subcommand
+    ```bash
+    # tells you about the -w flag
+    go help env -w
+    ```
 - Get more help
     ```bash
+    # tells you about the go env command
     go help env
+    ```
+    ```bash
+    # tells you about all the Go environment variables
+    go help environment
     ```
 
 Read further at:
@@ -47,20 +57,26 @@ Read further at:
 - [Go runtime environment variables - Golang Docs](https://pkg.go.dev/runtime#hdr-Environment_Variables)
 - [The Go's official env.go file](https://go.dev/src/cmd/go/internal/envcmd/env.go)
 
-The following environment variables (`$name` or `%name%`, depending on the host operating system) control the run-time behavior of Go programs. The meanings and use may change from release to release.
+The following environment variables (`$name` or `%name%`, depending on the host operating system) control the run-time behavior of Go programs. The meanings and use may change from release to release. 
+
+This arrangement lists the Go runtime environment variables in alphabetical order for easier reference and lookup.
 </details>
 
-1. [GOROOT](./go-runtime-env-vars/GOROOT.md)
-2. [GOPATH](./go-runtime-env-vars/GOPATH.md)
-3. [GOBIN](./go-runtime-env-vars/GOBIN.md)
-4. [GO111MODULE](./go-runtime-env-vars/GO111MODULE.md)
-5. [GOMOD](./go-runtime-env-vars/GOMOD.md)
-6. [GOOS and GOARCH](./go-runtime-env-vars/GOOS-GOARCH.md)
-7. [GOCACHE and GOTMPDIR](./go-runtime-env-vars/GOCACHE-GOTMPDIR.md)
-8. [GOPROXY](./go-runtime-env-vars/GOPROXY.md)
-9. [GOFLAGS](./go-runtime-env-vars/GOFLAGS.md)
-10. [GOENV](./go-runtime-env-vars/GOENV.md)
-11. [GOGC](./go-runtime-env-vars/GOGC.md)
+1. [GOCACHE and GOTMPDIR](./go-runtime-env-vars/GOCACHE-GOTMPDIR.md)
+2. [GOGC](./go-runtime-env-vars/GOGC.md)
+3. [GO111MODULE](./go-runtime-env-vars/GO111MODULE.md)
+4. [GOARCH and GOOS](./go-runtime-env-vars/GOOS-GOARCH.md)
+5. [GOBIN](./go-runtime-env-vars/GOBIN.md)
+6. [GOENV](./go-runtime-env-vars/GOENV.md)
+7. [GOFLAGS](./go-runtime-env-vars/GOFLAGS.md)
+8. [GOMAXPROCS](./go-runtime-env-vars/GOMAXPROCS.md)
+9. [GOMOD](./go-runtime-env-vars/GOMOD.md)
+10. [GOPATH](./go-runtime-env-vars/GOPATH.md)
+11. [GOPROXY](./go-runtime-env-vars/GOPROXY.md)
+12. [GOROOT](./go-runtime-env-vars/GOROOT.md)
+13. [GOTRACEBACK](./go-runtime-env-vars/GOTRACEBACK.md)
+14. [GODEBUG](./go-runtime-env-vars/GODEBUG.md)
+
 
 ### [`Variables`](./variables/)
 
