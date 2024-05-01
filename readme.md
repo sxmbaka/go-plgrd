@@ -13,7 +13,7 @@
 ### [`GO Runtime Environment Variables`](./go-runtime-env-vars/)
 
 <details>
-    <summary><b>What are Go Environment Variables?</b></summary>
+    <summary><b>What are Go Runtime Environment Variables?</b></summary>
 
 The `go env` command prints the value of environment variables used by the Go tools. These variables are used to configure the behavior of the Go tools and the Go runtime. These runtime environment variables are used to control the behavior of the Go runtime, and the Go tools. The Go tools include the `go` command, the `gofmt` command, and the `godoc` command. The Go runtime is the part of the Go toolchain that executes Go programs.
 
