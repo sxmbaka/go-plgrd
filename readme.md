@@ -92,5 +92,7 @@ This arrangement lists the Go runtime environment variables in alphabetical orde
 8. [Variable Shadowing](./variables/shadowing-variables.go)
 9. [Constants in Go](./variables/constants.go)<br>
 (Read further at <https://golangbyexample.com/constant-golang/>)
+1.  [Abbreviated Variable Declarations](./variables/common-abbreviations.go)
+    
 
 __Tip__: _Create a `playground` directory in the `root` directory and then test these examples yourself._
