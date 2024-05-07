@@ -30,7 +30,7 @@ var (
 	c      int       // capacity
 	ch     rune      // character
 	a      []int     // array
-	r      rune      // rune
+	rr      rune      // rune
 	sep    string    // separator
 	src    int       // source
 	dst    int       // destination
